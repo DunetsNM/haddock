@@ -1,5 +1,5 @@
 cabal-version:        2.0
-name:                 haddock-library
+name:                 haddock-library-sandbox
 version:              1.7.0
 synopsis:             Library exposing some functionality of Haddock.
 description:          Haddock is a documentation-generation tool for Haskell
@@ -101,9 +101,9 @@ test-suite fixtures
 
   -- Depend on the library.
   build-depends:
-    haddock-library
+    haddock-library-sandbox
 
 source-repository head
   type:     git
-  subdir:   haddock-library
+  subdir:   haddock-library-sandbox
   location: https://github.com/haskell/haddock.git

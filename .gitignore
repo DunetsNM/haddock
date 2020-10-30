@@ -1,7 +1,7 @@
 /dist/
 /dist-newstyle/
 /haddock-api/dist/
-/haddock-library/dist/
+/haddock-library-sandbox/dist/
 /haddock-test/dist/
 /html-test/out/
 /hypsrc-test/out/

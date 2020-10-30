@@ -67,7 +67,7 @@ executable haddock
     base ^>= 4.12.0
 
   if flag(in-ghc-tree)
-    hs-source-dirs: haddock-api/src,  haddock-library/src
+    hs-source-dirs: haddock-api/src,  haddock-library-sandbox/src
     cpp-options: -DIN_GHC_TREE
     build-depends:
       filepath,
